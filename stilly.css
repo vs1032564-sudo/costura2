@@ -1,0 +1,514 @@
+body {
+    margin: 0;
+    border: 0;
+    background-color:rgb(232, 227, 227) ;
+}
+header {
+    background-color:#e9ad9b ;
+}
+.cabeçalhopt1  {
+    background-image: url('../costura/Imagem2.png');
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    gap: 510px;
+   
+   
+}
+.cabeçalhopt1 a {
+    margin-left: -36px;
+}
+.cabeçalhopt1:hover {
+    width: 100%;
+    height: 80px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #6d574a;
+    margin-left: -10px;
+    font-size: 19px;
+}
+a:hover {
+    font-size: 18px;
+}
+.cabeçalhopt1 img {
+    width: 20px;
+    height: 20px;
+}
+.titulopg1 {
+    color: #6d574a;
+    border-bottom: 1px solid wheat;
+    
+}
+.separe1 {
+    margin-left: 100px;
+}
+.separe2 {
+    margin-left: 400px;
+}
+.cabeçalhopt2 {
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    white-space: nowrap;
+     margin-left: -30px;
+}
+.cabeçalhopt2 img {
+    width: 20px;
+    height: 20px;
+}
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 10px;
+    
+    
+}
+.pesquisa input {
+    width: 300px;
+    height: 30px;
+    border: 2px solid #e9ad9b;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9ad9b;
+    color: #846055;
+    outline: none;
+}
+.pesquisa input:hover {
+    width: 298px;
+    height: 28px;
+    border: 2px solid #e9ad9b;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9ad9b;
+    color: #846055;
+    outline: none;
+}
+.pesquisa button {
+    width: 80px;
+    height: 37px;
+    border: 2px solid #e9ad9b;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9ad9b;
+    color: #846055;
+}
+.pesquisa button:hover {
+    width: 78px;
+    height: 35px;
+    border: 2px solid #e9ad9b;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9ad9b;
+    color: #846055;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    gap: 20px;
+    
+}
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 90px;
+    
+
+}
+
+.produtos img {
+    width: 400px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 5%;
+
+}
+.produtos a img {
+        height: 20px;
+        width: 20px;
+        
+        
+    }
+.produtos img:hover {
+    width: 395px;
+    height: 295px;
+    margin-top: 20px;
+    border-radius: 6px;
+
+}
+.produtos img, a {
+    margin-bottom: -10px;
+    padding-left: 50px;
+
+   
+}
+.produtos a {
+    background: #03b157;
+    width: 280px;
+    height: 25px;
+    text-align: center;
+    border-radius: 8px ;
+    font-size: 20px;
+    padding-top: 7px;
+    color: white;
+    
+}
+.produtos p {
+    margin-left: 10px;
+    width: 300px;
+}
+.produtos a:hover {
+    background: #03b157;
+    width: 275px;
+    height: 23px;
+    text-align: center;
+    border-radius: 8px ;
+    font-size: 19px;
+
+}
+
+  
+.girassol2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.girassol2 button {
+    width: 30px;
+    height: 30px;
+    margin-top: 300px;
+    border: none;
+    background: none;
+}
+.girassol img {
+    width: 40%;
+    height: 600px;
+   
+    border-radius: 6px;
+
+}
+.girassol p, 
+.girassol strong,
+.girassol a{
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: 40px;
+    font-size: 20px;
+       
+}
+.girassol a{
+    margin-left: 500px;
+    background-color: #2073b8;
+    border-radius:8px;
+    color: white;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    padding-bottom: 10px;
+
+
+
+}
+.girassol a:hover {
+    height: 30px ;
+    font-size: 18px;
+}
+.bot1 {
+    margin-left: 10px;
+}
+.bot2 {
+    margin-right: 10px;
+}
+.img2 img {
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+.rodapé {
+    width: 100%;
+    height: 150px;
+    background-color:#e9ad9b ;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 520px;
+}
+.rodapé a {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.rodapé img, a {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+/* 📱📱📱 RESPONSIVIDADE PARA CELULAR */
+@media (max-width: 700px) {
+    .cabeçalhopt1  {
+    background-image: url('../costura/imagem2.png');
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    
+    
+    }
+    .cabeçalhopt1 a {
+        margin-left: -86px;
+    }
+    .cabeçalhopt1:hover {
+        width: 100%;
+        height: 45px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #6d574a;
+        margin-left: -10px;
+        font-size: 10px;
+    }
+    a:hover {
+        font-size: 9px;
+    }
+    .separe1 {
+        margin-left: 20px;
+        font-size: 14px;
+        }
+    .separe2 {
+        margin-left: 100px;
+        font-size: 14px;
+    }
+    .cabeçalhopt2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        white-space: nowrap;
+        margin-left: -30px;
+        font-size: 20px;
+         font-weight: 900;
+         font-weight: bold;
+}
+.cabeçalhopt2 a, img {
+    gap: 7px;
+
+}
+.cabeçalhopt2 img {
+    width: 15px;
+    height: 10px;
+   
+}
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 10px;
+    
+    
+}
+.pesquisa input {
+    width: 200px;
+    height: 20px;
+    border: 2px solid #e9ad9b;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9ad9b;
+    color: #846055;
+    outline: none;
+}
+.pesquisa input:hover {
+    width: 198px;
+    height: 18px;
+    border: 2px solid #e9ad9b;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9ad9b;
+    color: #846055;
+    outline: none;
+}
+.pesquisa button {
+    width: 80px;
+    height: 27px;
+    border: 2px solid #e9ad9b;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9ad9b;
+    color: #846055;
+}
+.pesquisa button:hover {
+    width: 75px;
+    height: 24px;
+    border: 2px solid #e9ad9b;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9ad9b;
+    color: #846055;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    gap: 0px;
+    
+}
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    margin-top: 20px;
+    
+
+}
+
+.produtos img {
+    width: 165px;
+    height: 200px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden; 
+    margin-left: -50px;
+
+}
+    .produtos img:hover {
+        width: 148px;
+        height: 198px;
+        margin-top: 20px;
+        border-radius: 6px;
+
+    }
+    .produtos p {
+        font-size: 7px;
+        width: 98px;
+        height: 10px;
+        gap: 0;
+        
+    }
+    .produtos h3 {
+        margin-top: -10px;
+        font-size: 10px;
+    }
+    .produtos a {
+        background: #03b157;
+        width: 80px;
+        height: 25px;
+        text-align: center;
+        border-radius: 8px ;
+        font-size: 12px;
+        padding-top: 7px;
+        color: white;
+        padding-right: 30px;
+        
+    }
+    .img {
+        height: 2px;
+        width: 10px;
+    }
+    
+    .produtos p {
+        margin-left: 10px;
+        width: 170px;
+    }
+    .produtos a:hover {
+        background: #03b157;
+        width: 75px;
+        height: 23px;
+        text-align: center;
+        border-radius: 8px ;
+        font-size: 10px;
+
+        
+
+    }
+    
+    .produtos a img {
+        height: 60%;
+        
+        
+    }
+    .rodapé {
+    width: 100%;
+    height: 100px;
+    background-color:#e9ad9b ;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 100px;
+}
+.rodapé a {
+    margin-top: 20px;
+    margin-left: -40px;
+    font-size: 6px;
+    
+}
+.rodapé img, a {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.girassol {
+    display: flex;
+    flex-direction: column;
+}
+.girassol p  {
+    margin-left: 70px;
+    font-size: 10px;
+    height: 10px;
+    width:260px;
+}
+
+.girassol strong{
+    margin-top: 150px;
+    font-size: 12px;
+    width: 260px;
+    margin-left: 70px;
+}
+.girassol a {
+    margin-left: 40px;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    padding-bottom: -60px;
+    padding-right: 50px;
+}
+.girassol a img {
+    height: 40%;
+}
+.girassol2 img {
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+}
+   .girassol2 button {
+    width: 30px;
+    height: 30px;
+    margin-top: 100px;
+    border: none;
+    background: none;
+}
+
+}
